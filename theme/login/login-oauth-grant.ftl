@@ -12,7 +12,13 @@
         <div class="box-container">
             <div>
                 <p class="application-name">NU Identity Service</p>
-                <p class="client-name">${msg("loginTitle",(realm.displayName!''))}</p>
+                <p class="client-name">
+                <#if client.name?has_content>
+                    ${msg("oauthGrantTitle",advancedMsg(client.name))}
+                <#else>
+                    ${msg("oauthGrantTitle",client.clientId)}
+                </#if>
+                </p>
             </div>
             <div class="oauth-text">
                 <h3>${msg("oauthGrantRequest")}</h3>
