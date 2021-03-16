@@ -20,11 +20,11 @@
         </script>
     <#elseif section = "form">
         <div>
-            <img class="logo" src="${url.resourcesPath}/img/alfresco-logo.svg" alt="Alfresco">
+           <!-- <img class="logo" src="${url.resourcesPath}/img/nu-logo.png" alt="NetUnion"> -->
         </div>
         <div class="box-container">
             <div>
-                <p class="application-name">Alfresco Identity Service</p>
+                <p class="application-name">${msg("loginTitle",(realm.displayName!''))}</p>
             </div>
         <#if realm.password>
             <div>
