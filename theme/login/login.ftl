@@ -24,7 +24,8 @@
         </div>
         <div class="box-container">
             <div>
-                <p class="application-name">${msg("loginTitle",(realm.displayName!''))}</p>
+                <p class="application-name">NU Identity Service</p>
+                <p class="client-name">${msg("loginTitle",(realm.displayName!''))}</p>
             </div>
         <#if realm.password>
             <div>

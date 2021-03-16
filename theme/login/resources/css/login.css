@@ -39,7 +39,7 @@ body {
   margin-top: 30px;
 }
 .login-content .box .application-name {
-  width: 270px;
+  width: 370px;
   font-family: Muli;
   font-size: 24px;
   font-weight: 600;
@@ -51,6 +51,17 @@ body {
   color: #0055B8;
   margin-left: 32px;
   margin-top: 40px;
+}
+.login-content .box .client-name {
+  width: 370px;
+  font-family: Muli;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: -0.4px;
+  text-align: left;
+  margin-left: 32px;
 }
 .login-content .box .form {
   margin-left: 32px;
@@ -130,7 +141,7 @@ body {
   color: #b8082a;
   border: 0px;
   position: relative;
-  top: 180px;
+  top: 130px;
   left: 64px;
   display: inline-flex;
   align-items: center;
