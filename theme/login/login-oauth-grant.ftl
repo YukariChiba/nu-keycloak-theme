@@ -29,8 +29,8 @@
             <div>
                <form id="kc-form-login" class="form" onsubmit="return true;" action="${url.oauthAction}" method="post">
                     <input type="hidden" name="code" value="${oauth.code}">
-                <input class="submit" name="accept" id="kc-login" type="submit" value="${msg("doYes")}" tabindex="3">
-                <input class="submit" name="cancel" id="kc-cancel" type="submit" value="${msg("doNo")}" tabindex="3">
+                <input class="btn" name="accept" id="kc-login" type="submit" value="${msg("doYes")}" tabindex="3">
+                <input class="btn-outline" name="cancel" id="kc-cancel" type="submit" value="${msg("doNo")}" tabindex="3">
                 </form>
             </div>
         <div>

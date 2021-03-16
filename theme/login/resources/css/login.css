@@ -118,6 +118,45 @@ body {
 {
   box-shadow: 0 0 0px 1000px white inset;
 }
+.login-content .box .btn{
+  width: 320px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #00754a;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-content .box .btn-outline {
+  width: 320px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: var(--white);
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00754a;
+  border-style: solid;
+  border-color: #00754a;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 .login-content .box .submit{
   width: 320px;
   height: 36px;
